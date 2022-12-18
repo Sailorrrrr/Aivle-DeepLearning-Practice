@@ -19,17 +19,17 @@ AivleSchool 2기 딥러닝 실습
 * Regression 코드 이해 
   
 ![image](https://user-images.githubusercontent.com/97539668/208284113-59c67453-32dd-47d8-9e07-76d0404c92f4.png)
-![image](https://user-images.githubusercontent.com/9753Epochs = 10
+![image](https://user-images.githubusercontent.com/97539668/208284703-4a1f9955-2b91-4e0d-8dd3-ebe7ff01afa1.png)
 
-  Epochs = 10
+  - Epochs = 10
     - epochs : 500건 전체를 10번 학습
-  Batch_size = 100
+  - Batch_size = 100
     - Batch 하나당 데이터 건수
     - 전체 / batch_size  5개의 batch로 나눠서 학습
-  iteration 수 (update 수)
+  - iteration 수 (update 수)
     - epochs = 10, batch_size = 100 라면
     - 10 * (500/100) = 50 회 반복하며 파라미터 업데이트
-  validation_split 
+  - validation_split 
     - 학습 시 일부를 나눠서 검증용으로 사용
 
 
